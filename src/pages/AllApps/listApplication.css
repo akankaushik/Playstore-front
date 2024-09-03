@@ -1,0 +1,52 @@
+/* listApplications.css */
+
+.list-applications {
+    font-family: Arial, sans-serif;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .list-applications h1 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .list-applications ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .list-applications .application-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 15px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .list-applications .application-item h2 {
+    font-size: 22px;
+    color: #333;
+    margin: 0 0 10px 0;
+  }
+  
+  .list-applications .application-item p {
+    margin: 5px 0;
+    color: #555;
+  }
+  
+  .list-applications .application-item p strong {
+    color: #333;
+  }
+  
+  .list-applications .no-applications {
+    text-align: center;
+    font-size: 18px;
+    color: #777;
+  }
+  

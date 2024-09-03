@@ -1,0 +1,31 @@
+/* adminProfile.css */
+
+.profile-form {
+  padding: 10px;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.profile-form h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.profile-info {
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  font-weight: bold;
+  display: block;
+}
+
+.form-group p {
+  margin: 5px 0;
+}

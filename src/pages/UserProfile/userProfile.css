@@ -1,0 +1,45 @@
+/* Container for the entire user profile page */
+.user-profile {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+  }
+  
+  /* Header styling */
+  .user-profile h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* User details section */
+  .user-details {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+  }
+  
+  /* Paragraph styling for user details */
+  .user-details p {
+    font-size: 16px;
+    margin: 10px 0;
+    color: #555;
+  }
+  
+  /* Strong tag styling within user details */
+  .user-details p strong {
+    color: #333;
+  }
+  
+  /* Loading message */
+  .user-profile p {
+    text-align: center;
+    font-size: 16px;
+    color: #888;
+  }
+  

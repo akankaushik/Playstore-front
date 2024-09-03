@@ -1,0 +1,62 @@
+.home {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .application {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .application h2 {
+    margin-top: 0;
+    color: #333;
+  }
+  
+  .application p {
+    margin: 8px 0;
+  }
+  
+  .application h3 {
+    margin-top: 16px;
+    color: #555;
+  }
+  
+  .application ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .application ul li {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 8px;
+    margin-bottom: 8px;
+  }
+  
+  .application input {
+    padding: 8px;
+    margin-right: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .application button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #28a745;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .application button:hover {
+    background-color: #218838;
+  }
+  
+
+  

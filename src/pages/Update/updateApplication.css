@@ -1,0 +1,70 @@
+/* Container for the whole form */
+.add-application {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+  }
+  
+  /* Header styling */
+  .add-application h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Form styling */
+  .add-application form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Form field labels */
+  .add-application label {
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #555;
+  }
+  
+  /* Input fields and textarea */
+  .add-application input[type="text"],
+  .add-application input[type="date"],
+  .add-application textarea,
+  .add-application select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  /* Textarea specific styles */
+  .add-application textarea {
+    height: 100px;
+    resize: vertical;
+  }
+  
+  /* Button styling */
+  .add-application button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .add-application button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Navbar styling */
+  .add-application .navbar {
+    margin-bottom: 20px;
+  }
+  

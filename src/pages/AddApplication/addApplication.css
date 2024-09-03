@@ -1,0 +1,68 @@
+/* addApplication.css */
+
+.add-application {
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.add-application h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.add-application form {
+  display: flex;
+  flex-direction: column;
+}
+
+.add-application div {
+  margin-bottom: 15px;
+}
+
+.add-application label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #555;
+}
+
+.add-application input[type="text"],
+.add-application textarea,
+.add-application select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.add-application textarea {
+  resize: vertical;
+  height: 100px;
+}
+
+.add-application button {
+  padding: 10px 15px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.add-application button:hover {
+  background-color: #0056b3;
+}
+
+.add-application select option {
+  padding: 10px;
+}
